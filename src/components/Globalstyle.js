@@ -30,6 +30,10 @@ code {
    padding: 0;
  }
 
+ h1, h2 {
+  color: #35E8E8;
+ }
+
  ul {
    list-style: none;
  }

@@ -6,8 +6,8 @@ export const List = styled.ul`
   padding: 20px;
   font-size: 18px;
   font-weight: 600;
-  border: 4px solid darkgreen;
-  background-color: lightyellow;
+  border: 4px solid #35E8E8;
+  background-color: #35E8E8;
   border-radius: 50px;
   flex-direction: column;
   justify-content: center;

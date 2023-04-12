@@ -16,13 +16,13 @@ export const FilterField = styled.input`
   margin-bottom: 30px;
   height: 30px;
   width: 400px;
-  border: 2px solid darkgreen;
+  border: 2px solid #35E8E8;
   border-radius: 4px;
   outline: none;
   font-size: 14px;
   transition: border 250ms ease-in-out;
   &:hover,
   &:focus {
-    border: 2px solid lightgreen;
+    border: 2px solid #35E8E8;
   }
 `;

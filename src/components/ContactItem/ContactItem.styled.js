@@ -16,9 +16,9 @@ export const DeleteButton = styled.button`
   margin-left: auto;
   padding:5px;
   width: 150px;
-  border: 2px solid darkgreen;
-  border-radius: 50px;
-  background-color: white;
+  ${'' /* border: 2px solid darkgreen; */}
+  ${'' /* border-radius: 50px; */}
+  background-color: #35E8E8;
   margin-left: auto;
   font-size: 18px;
   font-weight: 600;

@@ -15,8 +15,8 @@ export const Form = styled(FormikForm)`
   margin: auto;
   gap: 15px;
   font-size: 18px;
-  border: 4px solid darkgreen;
-  background-color: lightyellow;
+  ${'' /* border: 4px solid darkgreen; */}
+  background-color: #35E8E8;
   border-radius: 50px;
 `;
 
@@ -31,23 +31,23 @@ export const FormLabel = styled.label`
 export const Field = styled(FormikField)`
   padding: 5px;
   width: 300px;
-  border: 2px solid darkgreen;
+  border: 2px solid #35E8E8;
   border-radius: 4px;
   outline: none;
   font-size: 14px;
   transition: border 250ms ease-in-out;
   &:hover,
   &:focus {
-    border: 2px solid lightgreen;
+    border: 2px solid #35E8E8;
   }
 `;
 
 export const AddButton = styled.button`
   padding: 10px;
   width: 150px;
-  border: 2px solid darkgreen;
+  border: 2px solid #35E8E8;
   border-radius: 50px;
-  background-color: white;
+  background-color: #35E8E8;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
@@ -55,8 +55,8 @@ export const AddButton = styled.button`
   &:hover,
   &:focus {
     box-shadow: rgba(22, 100, 226, 0.24) 0px 3px 8px;
-    background-color: green;
-    border: 2px solid lightgreen;
+    background-color: teal;
+    border: 2px solid #35E8E8;
     color: #fff;
   }
 `;
